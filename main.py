@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-
+import streamlit.components.v1 as components
 # title and about me section
 
 st.title("Yusuf Abdur-Rasheed")
@@ -12,33 +12,21 @@ st.info("Hi! I am Yusuf, A student studying at Solihull School passionate about"
 
 st.markdown("[GitHub](https://www.github.com/abduyus)")
 
-st.subheader("Tech Stack: ")
-st.markdown(
+st.subheader("🧰 Tools and Languages: ")
+
+
+components.html(
     """
-    <style>
-        .st-b7 {
-            padding: 1px;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+    <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 
-col1, col2, col3, col4, col5 = st.columns(5)
+    <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+    <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 
-# Display an image in each column
-col1.image("images/python.png")
-col2.image("images/html.png")
-col3.image("images/css.png")
-col4.image("images/vscode.png")
-col5.image("images/git.png")
+    <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+
+    <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+    """)
 
 
-
-st.subheader("Projects: ")
-
-col6 = st.columns(1)
-
-with col6:
-    pass
 
