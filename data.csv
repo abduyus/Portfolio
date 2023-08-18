@@ -1,5 +1,5 @@
-title;description;source_code;url
-Weather Forecast Webapp; A simple weather forecast webapp hosted on streamlit;https://github.com/abduyus/App7_Weather_forecast_data_app.git;https://yusuf-weather.streamlit.app/
-Email Webcam Object detection; A simple python script to detect objects in a webcam feed and send an email with the image attached;https://github.com/abduyus/App9---Email-Webcam-Object-Detection
-Music Event Web Scraper; A python script that scrapes the next event from a website and stores it on a SQL database;https://github.com/abduyus/App10---Music-Event-Web-Scraper
-Weather API; A API built with Python and Flask that has the weather forecast for different areas at specific times;https://github.com/abduyus/App-6_Weather_API
+title;description;source_code;demo;image
+Weather Forecast Webapp; A simple weather forecast webapp hosted on streamlit that uses an online free weather API to get the weather;https://github.com/abduyus/App7_Weather_forecast_data_app.git;https://yusuf-weather.streamlit.app/;weather.png
+Email Webcam Object detection; A simple python script to detect objects in a webcam feed and send an email with the image attached;https://github.com/abduyus/App9---Email-Webcam-Object-Detection;url;11.png
+Music Event Web Scraper; A python script that scrapes the next event from a website and stores it on a SQL database using the command line;https://github.com/abduyus/App10---Music-Event-Web-Scraper;url;web.png
+Weather API; A API built with Python and Flask that has the weather forecast for different areas at specific times;https://github.com/abduyus/App-6_Weather_API;url;6.png
