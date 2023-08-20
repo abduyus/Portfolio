@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 import pandas as pd
 
 df = pd.read_csv("data.csv", sep=";")
-st.set_page_config(page_title="Yusuf Abdur-Rasheed", page_icon="🧊", layout="wide")
+st.set_page_config(page_title="Yusuf Abdur-Rasheed", page_icon="📑", layout="wide")
 
 st.title("My Projects: ")
 col1, col2 = st.columns(2)
