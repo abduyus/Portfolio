@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 # title and about me section
 
-st.title("Yusuf Abdur-Rasheed")
+st.title("Yusuf Abdur-Rasheed croissant")
 
 st.subheader("About Me")
 st.info("Hi! I am Yusuf, A student studying at Solihull School passionate about" 
